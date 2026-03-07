@@ -1,0 +1,21 @@
+[W&B] Run initialized: wobbly-frog-23
+
+============================================================
+Training: 5 epochs, batch=32, lr=0.0005, optimizer=rmsprop
+============================================================
+Epoch 001/5 | Train Loss: 0.2820 | Train Acc: 0.9173 | Val Loss: 0.1757 | Val Acc: 0.9498 | Time: 7.7s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/5 | Train Loss: 0.1203 | Train Acc: 0.9634 | Val Loss: 0.1162 | Val Acc: 0.9660 | Time: 4.6s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/5 | Train Loss: 0.0877 | Train Acc: 0.9731 | Val Loss: 0.1341 | Val Acc: 0.9623 | Time: 8.2s
+Epoch 004/5 | Train Loss: 0.0704 | Train Acc: 0.9785 | Val Loss: 0.1053 | Val Acc: 0.9720 | Time: 4.9s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 005/5 | Train Loss: 0.0600 | Train Acc: 0.9816 | Val Loss: 0.1253 | Val Acc: 0.9663 | Time: 14.2s
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.9720 (epoch 4)
+Test Accuracy: 0.9741 | Test Loss: 0.0907
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

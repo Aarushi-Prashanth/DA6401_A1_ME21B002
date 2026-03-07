@@ -1,0 +1,23 @@
+[W&B] Run initialized: stoic-blaze-21
+
+============================================================
+Training: 5 epochs, batch=32, lr=0.0005, optimizer=momentum
+============================================================
+Epoch 001/5 | Train Loss: 1.0472 | Train Acc: 0.7197 | Val Loss: 0.4332 | Val Acc: 0.8812 | Time: 3.8s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/5 | Train Loss: 0.3635 | Train Acc: 0.8950 | Val Loss: 0.3313 | Val Acc: 0.9035 | Time: 7.3s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/5 | Train Loss: 0.2951 | Train Acc: 0.9136 | Val Loss: 0.2940 | Val Acc: 0.9153 | Time: 4.1s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 004/5 | Train Loss: 0.2573 | Train Acc: 0.9249 | Val Loss: 0.2559 | Val Acc: 0.9268 | Time: 3.7s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 005/5 | Train Loss: 0.2297 | Train Acc: 0.9326 | Val Loss: 0.2369 | Val Acc: 0.9325 | Time: 7.4s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.9325 (epoch 5)
+Test Accuracy: 0.9373 | Test Loss: 0.2120
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

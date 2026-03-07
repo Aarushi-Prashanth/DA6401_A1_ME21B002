@@ -1,0 +1,22 @@
+[W&B] Run initialized: dry-glade-26
+
+============================================================
+Training: 5 epochs, batch=32, lr=0.0005, optimizer=adam
+============================================================
+Epoch 001/5 | Train Loss: 0.2762 | Train Acc: 0.9187 | Val Loss: 0.1474 | Val Acc: 0.9572 | Time: 6.3s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/5 | Train Loss: 0.1176 | Train Acc: 0.9639 | Val Loss: 0.1174 | Val Acc: 0.9655 | Time: 9.7s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/5 | Train Loss: 0.0824 | Train Acc: 0.9747 | Val Loss: 0.0971 | Val Acc: 0.9700 | Time: 6.6s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 004/5 | Train Loss: 0.0622 | Train Acc: 0.9806 | Val Loss: 0.0849 | Val Acc: 0.9757 | Time: 9.8s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 005/5 | Train Loss: 0.0513 | Train Acc: 0.9837 | Val Loss: 0.0891 | Val Acc: 0.9748 | Time: 6.7s
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.9757 (epoch 4)
+Test Accuracy: 0.9759 | Test Loss: 0.0782
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

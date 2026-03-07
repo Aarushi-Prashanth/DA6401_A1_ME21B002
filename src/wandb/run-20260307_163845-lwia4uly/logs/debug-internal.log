@@ -1,0 +1,12 @@
+{"time":"2026-03-07T16:38:45.931270406Z","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T16:38:46.111334051Z","level":"INFO","msg":"stream: created new stream","id":"lwia4uly"}
+{"time":"2026-03-07T16:38:46.11139006Z","level":"INFO","msg":"handler: started","stream_id":"lwia4uly"}
+{"time":"2026-03-07T16:38:46.111490343Z","level":"INFO","msg":"stream: started","id":"lwia4uly"}
+{"time":"2026-03-07T16:38:46.111500194Z","level":"INFO","msg":"writer: started","stream_id":"lwia4uly"}
+{"time":"2026-03-07T16:38:46.111526987Z","level":"INFO","msg":"sender: started","stream_id":"lwia4uly"}
+{"time":"2026-03-07T16:38:55.15665174Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T16:38:55.420864517Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T16:38:55.430486062Z","level":"INFO","msg":"stream: closing","id":"lwia4uly"}
+{"time":"2026-03-07T16:38:55.430500965Z","level":"INFO","msg":"handler: closed","stream_id":"lwia4uly"}
+{"time":"2026-03-07T16:38:55.430546607Z","level":"INFO","msg":"sender: closed","stream_id":"lwia4uly"}
+{"time":"2026-03-07T16:38:55.430553418Z","level":"INFO","msg":"stream: closed","id":"lwia4uly"}

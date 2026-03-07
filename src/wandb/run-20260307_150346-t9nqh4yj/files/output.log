@@ -1,0 +1,23 @@
+[W&B] Run initialized: rose-terrain-20
+
+============================================================
+Training: 5 epochs, batch=32, lr=0.0005, optimizer=sgd
+============================================================
+Epoch 001/5 | Train Loss: 2.2255 | Train Acc: 0.1986 | Val Loss: 2.1108 | Val Acc: 0.3630 | Time: 3.3s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/5 | Train Loss: 1.9483 | Train Acc: 0.5253 | Val Loss: 1.7455 | Val Acc: 0.6217 | Time: 3.3s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/5 | Train Loss: 1.4960 | Train Acc: 0.6840 | Val Loss: 1.2616 | Val Acc: 0.7298 | Time: 7.1s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 004/5 | Train Loss: 1.0732 | Train Acc: 0.7683 | Val Loss: 0.9257 | Val Acc: 0.7915 | Time: 3.4s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 005/5 | Train Loss: 0.8132 | Train Acc: 0.8135 | Val Loss: 0.7306 | Val Acc: 0.8262 | Time: 3.2s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.8262 (epoch 5)
+Test Accuracy: 0.8341 | Test Loss: 0.7070
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

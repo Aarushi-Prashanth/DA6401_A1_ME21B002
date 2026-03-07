@@ -1,0 +1,31 @@
+[W&B] Run initialized: driven-brook-12
+
+============================================================
+Training: 10 epochs, batch=32, lr=0.0005, optimizer=adam
+============================================================
+Epoch 001/10 | Train Loss: 0.2820 | Train Acc: 0.9171 | Val Loss: 0.1702 | Val Acc: 0.9535 | Time: 15.8s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/10 | Train Loss: 0.1118 | Train Acc: 0.9666 | Val Loss: 0.1223 | Val Acc: 0.9643 | Time: 9.0s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/10 | Train Loss: 0.0778 | Train Acc: 0.9756 | Val Loss: 0.1113 | Val Acc: 0.9693 | Time: 5.7s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 004/10 | Train Loss: 0.0595 | Train Acc: 0.9817 | Val Loss: 0.0970 | Val Acc: 0.9698 | Time: 9.2s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 005/10 | Train Loss: 0.0472 | Train Acc: 0.9849 | Val Loss: 0.0981 | Val Acc: 0.9718 | Time: 5.9s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 006/10 | Train Loss: 0.0410 | Train Acc: 0.9865 | Val Loss: 0.0927 | Val Acc: 0.9732 | Time: 8.9s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 007/10 | Train Loss: 0.0344 | Train Acc: 0.9888 | Val Loss: 0.0982 | Val Acc: 0.9733 | Time: 5.6s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 008/10 | Train Loss: 0.0285 | Train Acc: 0.9909 | Val Loss: 0.0947 | Val Acc: 0.9745 | Time: 9.4s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 009/10 | Train Loss: 0.0257 | Train Acc: 0.9919 | Val Loss: 0.1226 | Val Acc: 0.9705 | Time: 14.8s
+Epoch 010/10 | Train Loss: 0.0233 | Train Acc: 0.9925 | Val Loss: 0.1035 | Val Acc: 0.9727 | Time: 15.8s
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.9745 (epoch 8)
+Test Accuracy: 0.9777 | Test Loss: 0.0782
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

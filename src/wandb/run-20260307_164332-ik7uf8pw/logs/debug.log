@@ -1,0 +1,30 @@
+2026-03-07 16:43:32,429 INFO    Thread-43 (_run_job):687 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-03-07 16:43:32,429 INFO    Thread-43 (_run_job):687 [wandb_setup.py:_flush():81] Configure stats pid to 687
+2026-03-07 16:43:32,429 INFO    Thread-43 (_run_job):687 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-03-07 16:43:32,430 INFO    Thread-43 (_run_job):687 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /content/da6401_assignment_1/src/wandb/run-20260307_164332-ik7uf8pw/logs/debug.log
+2026-03-07 16:43:32,430 INFO    Thread-43 (_run_job):687 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /content/da6401_assignment_1/src/wandb/run-20260307_164332-ik7uf8pw/logs/debug-internal.log
+2026-03-07 16:43:32,430 INFO    Thread-43 (_run_job):687 [wandb_init.py:monkeypatch_ipython():636] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ae98375fa40>
+2026-03-07 16:43:32,430 INFO    Thread-43 (_run_job):687 [wandb_init.py:init():844] calling init triggers
+2026-03-07 16:43:32,430 INFO    Thread-43 (_run_job):687 [wandb_init.py:init():849] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 64, 'hidden_size': 128, 'learning_rate': 0.001, 'num_layers': 3, 'optimizer': 'nadam', 'weight_decay': 0.001, 'weight_init': 'random'}
+config: {'_wandb': {}}
+2026-03-07 16:43:32,430 INFO    Thread-43 (_run_job):687 [wandb_init.py:init():892] starting backend
+2026-03-07 16:43:32,635 INFO    Thread-43 (_run_job):687 [wandb_init.py:init():895] sending inform_init request
+2026-03-07 16:43:32,639 INFO    Thread-43 (_run_job):687 [wandb_init.py:init():903] backend started and connected
+2026-03-07 16:43:32,654 INFO    Thread-43 (_run_job):687 [wandb_run.py:_config_callback():1403] config_cb None None {'activation': 'relu', 'batch_size': 64, 'hidden_size': 128, 'learning_rate': 0.001, 'num_layers': 3, 'optimizer': 'nadam', 'weight_decay': 0.001, 'weight_init': 'random'}
+2026-03-07 16:43:32,659 INFO    Thread-43 (_run_job):687 [wandb_run.py:_label_probe_notebook():1333] probe notebook
+2026-03-07 16:43:33,144 INFO    Thread-43 (_run_job):687 [wandb_init.py:init():973] updated telemetry
+2026-03-07 16:43:33,148 INFO    Thread-43 (_run_job):687 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-03-07 16:43:33,322 INFO    Thread-43 (_run_job):687 [wandb_init.py:init():1042] starting run threads in backend
+2026-03-07 16:43:33,861 INFO    Thread-43 (_run_job):687 [wandb_run.py:_console_start():2524] atexit reg
+2026-03-07 16:43:33,861 INFO    Thread-43 (_run_job):687 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-03-07 16:43:33,861 INFO    Thread-43 (_run_job):687 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-03-07 16:43:33,861 INFO    Thread-43 (_run_job):687 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-03-07 16:43:33,862 INFO    Thread-43 (_run_job):687 [wandb_init.py:init():1082] run started, returning control to user process
+2026-03-07 16:44:16,758 INFO    Thread-43 (_run_job):687 [wandb_run.py:_finish():2291] finishing run me21b002-/da6401_assignment1/ik7uf8pw
+2026-03-07 16:44:16,759 INFO    Thread-43 (_run_job):687 [jupyter.py:save_history():435] not saving jupyter history
+2026-03-07 16:44:16,759 INFO    Thread-43 (_run_job):687 [jupyter.py:save_ipynb():362] not saving jupyter notebook
+2026-03-07 16:44:16,759 INFO    Thread-43 (_run_job):687 [wandb_init.py:_jupyter_teardown():621] cleaning up jupyter logic
+2026-03-07 16:44:16,759 INFO    Thread-43 (_run_job):687 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-03-07 16:44:16,760 INFO    Thread-43 (_run_job):687 [wandb_run.py:_restore():2472] restore
+2026-03-07 16:44:16,760 INFO    Thread-43 (_run_job):687 [wandb_run.py:_restore():2478] restore done
+2026-03-07 16:44:17,494 INFO    Thread-43 (_run_job):687 [wandb_run.py:_footer_sync_info():3868] logging synced files

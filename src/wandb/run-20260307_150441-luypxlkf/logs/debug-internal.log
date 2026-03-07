@@ -1,0 +1,12 @@
+{"time":"2026-03-07T15:04:41.717907338Z","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T15:04:41.884664741Z","level":"INFO","msg":"stream: created new stream","id":"luypxlkf"}
+{"time":"2026-03-07T15:04:41.884709815Z","level":"INFO","msg":"handler: started","stream_id":"luypxlkf"}
+{"time":"2026-03-07T15:04:41.884873337Z","level":"INFO","msg":"writer: started","stream_id":"luypxlkf"}
+{"time":"2026-03-07T15:04:41.884885792Z","level":"INFO","msg":"stream: started","id":"luypxlkf"}
+{"time":"2026-03-07T15:04:41.884896067Z","level":"INFO","msg":"sender: started","stream_id":"luypxlkf"}
+{"time":"2026-03-07T15:05:12.424688683Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T15:05:12.567797056Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T15:05:12.571908924Z","level":"INFO","msg":"stream: closing","id":"luypxlkf"}
+{"time":"2026-03-07T15:05:12.571926276Z","level":"INFO","msg":"handler: closed","stream_id":"luypxlkf"}
+{"time":"2026-03-07T15:05:12.571982355Z","level":"INFO","msg":"sender: closed","stream_id":"luypxlkf"}
+{"time":"2026-03-07T15:05:12.571990185Z","level":"INFO","msg":"stream: closed","id":"luypxlkf"}

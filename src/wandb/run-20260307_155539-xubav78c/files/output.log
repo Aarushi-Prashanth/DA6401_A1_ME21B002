@@ -1,0 +1,28 @@
+[W&B] Run initialized: stellar-meadow-34
+
+============================================================
+Training: 10 epochs, batch=32, lr=0.0005, optimizer=adam
+============================================================
+Epoch 001/10 | Train Loss: 0.5214 | Train Acc: 0.8151 | Val Loss: 0.3684 | Val Acc: 0.8663 | Time: 12.6s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/10 | Train Loss: 0.3765 | Train Acc: 0.8631 | Val Loss: 0.3458 | Val Acc: 0.8748 | Time: 12.8s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/10 | Train Loss: 0.3388 | Train Acc: 0.8755 | Val Loss: 0.3473 | Val Acc: 0.8725 | Time: 5.6s
+Epoch 004/10 | Train Loss: 0.3166 | Train Acc: 0.8838 | Val Loss: 0.3144 | Val Acc: 0.8813 | Time: 9.1s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 005/10 | Train Loss: 0.2978 | Train Acc: 0.8897 | Val Loss: 0.2969 | Val Acc: 0.8902 | Time: 5.7s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 006/10 | Train Loss: 0.2825 | Train Acc: 0.8953 | Val Loss: 0.3021 | Val Acc: 0.8895 | Time: 9.0s
+Epoch 007/10 | Train Loss: 0.2729 | Train Acc: 0.8979 | Val Loss: 0.3125 | Val Acc: 0.8843 | Time: 5.7s
+Epoch 008/10 | Train Loss: 0.2608 | Train Acc: 0.9027 | Val Loss: 0.3109 | Val Acc: 0.8877 | Time: 9.2s
+Epoch 009/10 | Train Loss: 0.2516 | Train Acc: 0.9060 | Val Loss: 0.2849 | Val Acc: 0.8925 | Time: 6.4s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 010/10 | Train Loss: 0.2423 | Train Acc: 0.9098 | Val Loss: 0.2976 | Val Acc: 0.8875 | Time: 10.8s
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.8925 (epoch 9)
+Test Accuracy: 0.8833 | Test Loss: 0.3257
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

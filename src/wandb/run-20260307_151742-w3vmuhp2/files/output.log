@@ -1,0 +1,31 @@
+[W&B] Run initialized: youthful-monkey-27
+
+============================================================
+Training: 10 epochs, batch=32, lr=0.1, optimizer=sgd
+============================================================
+Epoch 001/10 | Train Loss: 0.2928 | Train Acc: 0.9102 | Val Loss: 0.2006 | Val Acc: 0.9420 | Time: 3.4s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/10 | Train Loss: 0.1173 | Train Acc: 0.9634 | Val Loss: 0.1114 | Val Acc: 0.9707 | Time: 7.1s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/10 | Train Loss: 0.0820 | Train Acc: 0.9743 | Val Loss: 0.1038 | Val Acc: 0.9715 | Time: 3.3s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 004/10 | Train Loss: 0.0634 | Train Acc: 0.9799 | Val Loss: 0.0927 | Val Acc: 0.9728 | Time: 3.4s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 005/10 | Train Loss: 0.0498 | Train Acc: 0.9841 | Val Loss: 0.1076 | Val Acc: 0.9692 | Time: 6.7s
+Epoch 006/10 | Train Loss: 0.0411 | Train Acc: 0.9866 | Val Loss: 0.0929 | Val Acc: 0.9745 | Time: 3.9s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 007/10 | Train Loss: 0.0329 | Train Acc: 0.9898 | Val Loss: 0.0975 | Val Acc: 0.9748 | Time: 3.3s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 008/10 | Train Loss: 0.0272 | Train Acc: 0.9909 | Val Loss: 0.0864 | Val Acc: 0.9765 | Time: 3.2s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 009/10 | Train Loss: 0.0228 | Train Acc: 0.9927 | Val Loss: 0.0888 | Val Acc: 0.9762 | Time: 7.0s
+Epoch 010/10 | Train Loss: 0.0189 | Train Acc: 0.9941 | Val Loss: 0.0947 | Val Acc: 0.9768 | Time: 3.3s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.9768 (epoch 10)
+Test Accuracy: 0.9779 | Test Loss: 0.0767
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

@@ -1,0 +1,31 @@
+[W&B] Run initialized: brisk-armadillo-9
+
+============================================================
+Training: 20 epochs, batch=32, lr=0.0005, optimizer=adam
+============================================================
+Epoch 001/20 | Train Loss: 0.3060 | Train Acc: 0.9119 | Val Loss: 0.1915 | Val Acc: 0.9463 | Time: 9.9s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/20 | Train Loss: 0.1527 | Train Acc: 0.9553 | Val Loss: 0.1458 | Val Acc: 0.9565 | Time: 6.1s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/20 | Train Loss: 0.1277 | Train Acc: 0.9636 | Val Loss: 0.1414 | Val Acc: 0.9623 | Time: 9.2s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 004/20 | Train Loss: 0.1155 | Train Acc: 0.9683 | Val Loss: 0.1307 | Val Acc: 0.9608 | Time: 6.1s
+Epoch 005/20 | Train Loss: 0.1082 | Train Acc: 0.9696 | Val Loss: 0.1273 | Val Acc: 0.9658 | Time: 9.7s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 006/20 | Train Loss: 0.1067 | Train Acc: 0.9698 | Val Loss: 0.1191 | Val Acc: 0.9673 | Time: 6.1s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 007/20 | Train Loss: 0.1019 | Train Acc: 0.9716 | Val Loss: 0.1383 | Val Acc: 0.9595 | Time: 9.2s
+Epoch 008/20 | Train Loss: 0.0996 | Train Acc: 0.9722 | Val Loss: 0.1100 | Val Acc: 0.9682 | Time: 9.5s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 009/20 | Train Loss: 0.0977 | Train Acc: 0.9732 | Val Loss: 0.1204 | Val Acc: 0.9658 | Time: 17.6s
+Traceback (most recent call last):
+  File "/content/da6401_assignment_1/src/train.py", line 286, in <module>
+    train(args)
+  File "/content/da6401_assignment_1/src/train.py", line 177, in train
+    model.update_params(optimizer)
+  File "/content/da6401_assignment_1/src/ann/neural_network.py", line 131, in update_params
+    optimizer.update(layer)
+  File "/content/da6401_assignment_1/src/ann/optimizers.py", line 197, in update
+    layer.b -= self.lr * mb_hat / (np.sqrt(vb_hat) + self.eps)
+                                   ^^^^^^^^^^^^^^^
+KeyboardInterrupt

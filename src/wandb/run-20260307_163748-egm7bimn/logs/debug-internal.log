@@ -1,0 +1,12 @@
+{"time":"2026-03-07T16:37:48.971848588Z","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T16:37:49.151079468Z","level":"INFO","msg":"stream: created new stream","id":"egm7bimn"}
+{"time":"2026-03-07T16:37:49.151157629Z","level":"INFO","msg":"handler: started","stream_id":"egm7bimn"}
+{"time":"2026-03-07T16:37:49.151340181Z","level":"INFO","msg":"stream: started","id":"egm7bimn"}
+{"time":"2026-03-07T16:37:49.151333422Z","level":"INFO","msg":"writer: started","stream_id":"egm7bimn"}
+{"time":"2026-03-07T16:37:49.151366056Z","level":"INFO","msg":"sender: started","stream_id":"egm7bimn"}
+{"time":"2026-03-07T16:38:20.99775795Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T16:38:21.190119315Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T16:38:21.198852837Z","level":"INFO","msg":"stream: closing","id":"egm7bimn"}
+{"time":"2026-03-07T16:38:21.198874813Z","level":"INFO","msg":"handler: closed","stream_id":"egm7bimn"}
+{"time":"2026-03-07T16:38:21.198930406Z","level":"INFO","msg":"sender: closed","stream_id":"egm7bimn"}
+{"time":"2026-03-07T16:38:21.198940908Z","level":"INFO","msg":"stream: closed","id":"egm7bimn"}

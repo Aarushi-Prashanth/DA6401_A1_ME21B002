@@ -1,0 +1,21 @@
+[W&B] Run initialized: faithful-galaxy-24
+
+============================================================
+Training: 5 epochs, batch=32, lr=0.0005, optimizer=nadam
+============================================================
+Epoch 001/5 | Train Loss: 0.2756 | Train Acc: 0.9197 | Val Loss: 0.1619 | Val Acc: 0.9555 | Time: 9.5s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/5 | Train Loss: 0.1096 | Train Acc: 0.9674 | Val Loss: 0.1223 | Val Acc: 0.9628 | Time: 6.5s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/5 | Train Loss: 0.0768 | Train Acc: 0.9761 | Val Loss: 0.0996 | Val Acc: 0.9705 | Time: 10.8s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 004/5 | Train Loss: 0.0572 | Train Acc: 0.9825 | Val Loss: 0.1062 | Val Acc: 0.9695 | Time: 12.6s
+Epoch 005/5 | Train Loss: 0.0469 | Train Acc: 0.9852 | Val Loss: 0.1100 | Val Acc: 0.9682 | Time: 14.1s
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.9705 (epoch 3)
+Test Accuracy: 0.9714 | Test Loss: 0.0924
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

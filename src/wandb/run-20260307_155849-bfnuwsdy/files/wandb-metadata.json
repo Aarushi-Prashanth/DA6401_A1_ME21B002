@@ -1,0 +1,72 @@
+{
+  "os":  "Linux-6.6.113+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-03-07T15:58:49.372869Z",
+  "args":  [
+    "-d",
+    "fashion_mnist",
+    "-e",
+    "10",
+    "-b",
+    "32",
+    "-l",
+    "cross_entropy",
+    "-o",
+    "adam",
+    "-lr",
+    "0.001",
+    "-wd",
+    "0.0001",
+    "-nhl",
+    "4",
+    "-sz",
+    "128",
+    "128",
+    "128",
+    "128",
+    "-a",
+    "relu",
+    "-w_i",
+    "xavier",
+    "--wandb",
+    "--wandb_project",
+    "da6401_assignment1",
+    "--save_dir",
+    "/content/da6401_assignment_1/models"
+  ],
+  "program":  "/content/da6401_assignment_1/src/train.py",
+  "codePath":  "src/train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/MiRL-IITM/da6401_assignment_1",
+    "commit":  "671b6914588cc2eaaa0e82e93c7f132e34a2b5a6"
+  },
+  "email":  "me21b002@smail.iitm.ac.in",
+  "root":  "/content/da6401_assignment_1/src",
+  "host":  "d284745ec7dd",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "120942624768",
+      "used":  "46764404736"
+    }
+  },
+  "memory":  {
+    "total":  "13605851136"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-7734f512-d62e-f1dc-fdd8-4c2dd4e1b033"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "bd8477x4e7n87oxospj46gp0unkg9oox"
+}

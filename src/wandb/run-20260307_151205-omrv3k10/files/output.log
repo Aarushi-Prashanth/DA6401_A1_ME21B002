@@ -1,0 +1,23 @@
+[W&B] Run initialized: denim-surf-25
+
+============================================================
+Training: 5 epochs, batch=32, lr=0.0005, optimizer=adam
+============================================================
+Epoch 001/5 | Train Loss: 0.8761 | Train Acc: 0.7302 | Val Loss: 0.3753 | Val Acc: 0.8977 | Time: 9.1s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/5 | Train Loss: 0.2942 | Train Acc: 0.9171 | Val Loss: 0.2447 | Val Acc: 0.9332 | Time: 9.9s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/5 | Train Loss: 0.2063 | Train Acc: 0.9402 | Val Loss: 0.1911 | Val Acc: 0.9437 | Time: 6.8s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 004/5 | Train Loss: 0.1620 | Train Acc: 0.9527 | Val Loss: 0.1589 | Val Acc: 0.9552 | Time: 10.0s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 005/5 | Train Loss: 0.1353 | Train Acc: 0.9603 | Val Loss: 0.1414 | Val Acc: 0.9603 | Time: 9.8s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.9603 (epoch 5)
+Test Accuracy: 0.9628 | Test Loss: 0.1290
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

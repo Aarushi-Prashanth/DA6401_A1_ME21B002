@@ -1,0 +1,12 @@
+{"time":"2026-03-07T15:12:05.842489464Z","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T15:12:06.028536058Z","level":"INFO","msg":"stream: created new stream","id":"omrv3k10"}
+{"time":"2026-03-07T15:12:06.028732242Z","level":"INFO","msg":"stream: started","id":"omrv3k10"}
+{"time":"2026-03-07T15:12:06.029536141Z","level":"INFO","msg":"handler: started","stream_id":"omrv3k10"}
+{"time":"2026-03-07T15:12:06.02959166Z","level":"INFO","msg":"writer: started","stream_id":"omrv3k10"}
+{"time":"2026-03-07T15:12:06.029633621Z","level":"INFO","msg":"sender: started","stream_id":"omrv3k10"}
+{"time":"2026-03-07T15:12:57.492196073Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T15:12:57.629665023Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T15:12:57.634009901Z","level":"INFO","msg":"stream: closing","id":"omrv3k10"}
+{"time":"2026-03-07T15:12:57.634022397Z","level":"INFO","msg":"handler: closed","stream_id":"omrv3k10"}
+{"time":"2026-03-07T15:12:57.634096929Z","level":"INFO","msg":"sender: closed","stream_id":"omrv3k10"}
+{"time":"2026-03-07T15:12:57.634109279Z","level":"INFO","msg":"stream: closed","id":"omrv3k10"}

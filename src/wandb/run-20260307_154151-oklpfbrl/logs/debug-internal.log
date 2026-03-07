@@ -1,0 +1,12 @@
+{"time":"2026-03-07T15:41:51.708228071Z","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T15:41:51.870995308Z","level":"INFO","msg":"stream: created new stream","id":"oklpfbrl"}
+{"time":"2026-03-07T15:41:51.871119765Z","level":"INFO","msg":"handler: started","stream_id":"oklpfbrl"}
+{"time":"2026-03-07T15:41:51.871261013Z","level":"INFO","msg":"stream: started","id":"oklpfbrl"}
+{"time":"2026-03-07T15:41:51.871288758Z","level":"INFO","msg":"writer: started","stream_id":"oklpfbrl"}
+{"time":"2026-03-07T15:41:51.871310165Z","level":"INFO","msg":"sender: started","stream_id":"oklpfbrl"}
+{"time":"2026-03-07T15:42:17.810335237Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T15:42:17.961159381Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T15:42:17.965273896Z","level":"INFO","msg":"stream: closing","id":"oklpfbrl"}
+{"time":"2026-03-07T15:42:17.965291681Z","level":"INFO","msg":"handler: closed","stream_id":"oklpfbrl"}
+{"time":"2026-03-07T15:42:17.965361761Z","level":"INFO","msg":"sender: closed","stream_id":"oklpfbrl"}
+{"time":"2026-03-07T15:42:17.965369766Z","level":"INFO","msg":"stream: closed","id":"oklpfbrl"}

@@ -1,0 +1,19 @@
+[W&B] Run initialized: jolly-silence-33
+
+============================================================
+Training: 5 epochs, batch=32, lr=0.0005, optimizer=adam
+============================================================
+Epoch 001/5 | Train Loss: 2.3017 | Train Acc: 0.1121 | Val Loss: 2.3012 | Val Acc: 0.1123 | Time: 3.3s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/5 | Train Loss: 2.3013 | Train Acc: 0.1124 | Val Loss: 2.3012 | Val Acc: 0.1123 | Time: 6.4s
+Epoch 003/5 | Train Loss: 2.3013 | Train Acc: 0.1124 | Val Loss: 2.3012 | Val Acc: 0.1123 | Time: 3.1s
+Epoch 004/5 | Train Loss: 2.3013 | Train Acc: 0.1124 | Val Loss: 2.3012 | Val Acc: 0.1123 | Time: 3.1s
+Epoch 005/5 | Train Loss: 2.3013 | Train Acc: 0.1124 | Val Loss: 2.3012 | Val Acc: 0.1123 | Time: 6.5s
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.1123 (epoch 1)
+Test Accuracy: 0.1135 | Test Loss: 2.3011
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

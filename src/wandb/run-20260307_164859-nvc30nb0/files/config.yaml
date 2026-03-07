@@ -1,0 +1,81 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            bvne99i04y27crfxdn6440s2ewnglx3d:
+                codePath: da6401_me21b002_assignment1
+                colab: https://colab.research.google.com/notebook#fileId=1WLaCF2ArJGRCCC8cZ8ZJcvTYXNEJ5A2L
+                cpu_count: 1
+                cpu_count_logical: 2
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "120942624768"
+                        used: "46768152576"
+                email: me21b002@smail.iitm.ac.in
+                executable: /usr/bin/python3
+                git:
+                    commit: 671b6914588cc2eaaa0e82e93c7f132e34a2b5a6
+                    remote: https://github.com/MiRL-IITM/da6401_assignment_1
+                gpu: Tesla T4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-7734f512-d62e-f1dc-fdd8-4c2dd4e1b033
+                host: d284745ec7dd
+                memory:
+                    total: "13605851136"
+                os: Linux-6.6.113+-x86_64-with-glibc2.35
+                program: da6401_me21b002_assignment1
+                python: CPython 3.12.12
+                root: /content/da6401_assignment_1/src
+                startedAt: "2026-03-07T16:48:59.825806Z"
+                writerId: bvne99i04y27crfxdn6440s2ewnglx3d
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 12
+                - 49
+                - 53
+                - 105
+            "2":
+                - 2
+                - 3
+                - 5
+                - 12
+                - 49
+                - 53
+                - 105
+            "3":
+                - 2
+                - 14
+            "4": 3.12.12
+            "5": 0.25.0
+            "8":
+                - 1
+                - 12
+            "12": 0.25.0
+            "13": linux-x86_64
+activation:
+    value: relu
+batch_size:
+    value: 128
+hidden_size:
+    value: 128
+learning_rate:
+    value: 0.01
+num_layers:
+    value: 1
+optimizer:
+    value: nadam
+weight_decay:
+    value: 0.001
+weight_init:
+    value: xavier

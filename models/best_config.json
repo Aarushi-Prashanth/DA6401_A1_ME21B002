@@ -1,0 +1,21 @@
+{
+    "dataset": "mnist",
+    "input_size": 784,
+    "hidden_sizes": [
+        128,
+        128,
+        128
+    ],
+    "output_size": 10,
+    "activation": "relu",
+    "weight_init": "xavier",
+    "optimizer": "adam",
+    "loss": "cross_entropy",
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "epochs": 10,
+    "best_val_accuracy": 0.9745,
+    "test_accuracy": 0.9777,
+    "best_epoch": 8
+}

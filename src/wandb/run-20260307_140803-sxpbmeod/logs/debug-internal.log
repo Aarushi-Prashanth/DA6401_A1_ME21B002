@@ -1,0 +1,12 @@
+{"time":"2026-03-07T14:08:04.062185403Z","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T14:08:04.248847801Z","level":"INFO","msg":"stream: created new stream","id":"sxpbmeod"}
+{"time":"2026-03-07T14:08:04.24909429Z","level":"INFO","msg":"stream: started","id":"sxpbmeod"}
+{"time":"2026-03-07T14:08:04.249958791Z","level":"INFO","msg":"handler: started","stream_id":"sxpbmeod"}
+{"time":"2026-03-07T14:08:04.250000029Z","level":"INFO","msg":"writer: started","stream_id":"sxpbmeod"}
+{"time":"2026-03-07T14:08:04.251082365Z","level":"INFO","msg":"sender: started","stream_id":"sxpbmeod"}
+{"time":"2026-03-07T14:09:47.345512475Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T14:09:47.501603638Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T14:09:47.505853436Z","level":"INFO","msg":"stream: closing","id":"sxpbmeod"}
+{"time":"2026-03-07T14:09:47.505875077Z","level":"INFO","msg":"handler: closed","stream_id":"sxpbmeod"}
+{"time":"2026-03-07T14:09:47.505949019Z","level":"INFO","msg":"sender: closed","stream_id":"sxpbmeod"}
+{"time":"2026-03-07T14:09:47.50596061Z","level":"INFO","msg":"stream: closed","id":"sxpbmeod"}

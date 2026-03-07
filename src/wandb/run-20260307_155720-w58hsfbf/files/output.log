@@ -1,0 +1,28 @@
+[W&B] Run initialized: trim-darkness-35
+
+============================================================
+Training: 10 epochs, batch=32, lr=0.0005, optimizer=adam
+============================================================
+Epoch 001/10 | Train Loss: 0.4928 | Train Acc: 0.8223 | Val Loss: 0.3706 | Val Acc: 0.8658 | Time: 8.6s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 002/10 | Train Loss: 0.3761 | Train Acc: 0.8621 | Val Loss: 0.3601 | Val Acc: 0.8693 | Time: 6.2s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 003/10 | Train Loss: 0.3418 | Train Acc: 0.8737 | Val Loss: 0.3352 | Val Acc: 0.8787 | Time: 9.1s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 004/10 | Train Loss: 0.3182 | Train Acc: 0.8824 | Val Loss: 0.3350 | Val Acc: 0.8782 | Time: 5.7s
+Epoch 005/10 | Train Loss: 0.3021 | Train Acc: 0.8877 | Val Loss: 0.2973 | Val Acc: 0.8898 | Time: 9.1s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 006/10 | Train Loss: 0.2873 | Train Acc: 0.8928 | Val Loss: 0.3006 | Val Acc: 0.8927 | Time: 5.6s
+[MLP] Weights saved to /content/da6401_assignment_1/models/best_model.npy
+Epoch 007/10 | Train Loss: 0.2758 | Train Acc: 0.8974 | Val Loss: 0.3035 | Val Acc: 0.8857 | Time: 8.9s
+Epoch 008/10 | Train Loss: 0.2641 | Train Acc: 0.9012 | Val Loss: 0.3070 | Val Acc: 0.8872 | Time: 5.7s
+Epoch 009/10 | Train Loss: 0.2536 | Train Acc: 0.9045 | Val Loss: 0.3043 | Val Acc: 0.8885 | Time: 9.0s
+Epoch 010/10 | Train Loss: 0.2452 | Train Acc: 0.9071 | Val Loss: 0.2963 | Val Acc: 0.8895 | Time: 5.6s
+[MLP] Weights loaded from /content/da6401_assignment_1/models/best_model.npy
+
+============================================================
+Best Val Acc: 0.8927 (epoch 6)
+Test Accuracy: 0.8741 | Test Loss: 0.3425
+============================================================
+
+[Config] Saved to /content/da6401_assignment_1/models/best_config.json

@@ -1,0 +1,40 @@
+{
+  "os":  "Linux-6.6.113+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-03-07T16:48:38.741346Z",
+  "program":  "da6401_me21b002_assignment1",
+  "codePath":  "da6401_me21b002_assignment1",
+  "git":  {
+    "remote":  "https://github.com/MiRL-IITM/da6401_assignment_1",
+    "commit":  "671b6914588cc2eaaa0e82e93c7f132e34a2b5a6"
+  },
+  "email":  "me21b002@smail.iitm.ac.in",
+  "root":  "/content/da6401_assignment_1/src",
+  "host":  "d284745ec7dd",
+  "executable":  "/usr/bin/python3",
+  "colab":  "https://colab.research.google.com/notebook#fileId=1WLaCF2ArJGRCCC8cZ8ZJcvTYXNEJ5A2L",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "120942624768",
+      "used":  "46768078848"
+    }
+  },
+  "memory":  {
+    "total":  "13605851136"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-7734f512-d62e-f1dc-fdd8-4c2dd4e1b033"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "lmisplh5j4r2zeoah1d2pp89cgmn0co0"
+}
