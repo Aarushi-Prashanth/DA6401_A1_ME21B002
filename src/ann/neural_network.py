@@ -204,3 +204,7 @@ class MLP:
         desc = " -> ".join(str(s) for s in sizes)
         return (f"MLP({desc}, activation={self.activation_name}, "
                 f"init={self.weight_init})")
+
+
+# Alias for autograder compatibility
+NeuralNetwork = MLP

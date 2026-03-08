@@ -157,3 +157,7 @@ if __name__ == "__main__":
 
 # Alias for autograder compatibility
 parse_arguments = build_parser
+
+
+# Alias for autograder compatibility
+parse_arguments = build_parser
