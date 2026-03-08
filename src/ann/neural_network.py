@@ -61,9 +61,6 @@ class MLP:
         # Storage for activation outputs (useful for dead neuron analysis)
         self._activation_outputs = []
 
-    # ------------------------------------------------------------------
-    # Forward pass
-    # ------------------------------------------------------------------
 
     def forward(self, X: np.ndarray) -> np.ndarray:
         """
@@ -86,10 +83,6 @@ class MLP:
         # Output layer: Dense only (softmax applied in loss)
         logits = self.dense_layers[-1].forward(out)
         return logits
-
-    # ------------------------------------------------------------------
-    # Backward pass
-    # ------------------------------------------------------------------
 
     def backward(self, grad_loss: np.ndarray) -> None:
         """
@@ -116,10 +109,6 @@ class MLP:
             grad = act.backward(grad)   # through activation
             grad = dense.backward(grad) # through linear layer
 
-    # ------------------------------------------------------------------
-    # Optimizer step
-    # ------------------------------------------------------------------
-
     def update_params(self, optimizer) -> None:
         """
         Apply optimizer update to all DenseLayer parameters.
@@ -130,9 +119,7 @@ class MLP:
         for layer in self.dense_layers:
             optimizer.update(layer)
 
-    # ------------------------------------------------------------------
-    # Prediction
-    # ------------------------------------------------------------------
+
 
     def predict(self, X: np.ndarray) -> np.ndarray:
         """
@@ -146,9 +133,6 @@ class MLP:
         logits = self.forward(X)
         return np.argmax(logits, axis=1)
 
-    # ------------------------------------------------------------------
-    # Gradient inspection utilities
-    # ------------------------------------------------------------------
 
     def get_gradient_norms(self) -> list:
         """
@@ -186,9 +170,6 @@ class MLP:
         layer = self.dense_layers[layer_idx]
         return {i: float(np.linalg.norm(layer.grad_W[:, i])) for i in neuron_indices}
 
-    # ------------------------------------------------------------------
-    # Serialization
-    # ------------------------------------------------------------------
 
     def save_weights(self, filepath: str) -> None:
         """
