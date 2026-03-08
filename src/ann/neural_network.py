@@ -206,5 +206,9 @@ class MLP:
                 f"init={self.weight_init})")
 
 
-# Alias for autograder compatibility
-NeuralNetwork = MLP
+# Wrapper class for autograder compatibility
+class NeuralNetwork(MLP):
+    def __init__(self, input_size, hidden_sizes, output_size,
+                 activation="relu", weight_init="xavier"):
+        super().__init__(input_size, hidden_sizes, output_size,
+                        activation, weight_init)
