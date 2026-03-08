@@ -1,22 +1,18 @@
-# Assignment 1: Multi-Layer Perceptron for Image Classification
+# DA6401 Assignment 1 ME21B002 - MLP from Scratch
+
 
 ## Overview
+This assignment involves building a Multi-Layer Perceptron (MLP) completely from scratch using only NumPy — no PyTorch or TensorFlow for computations. The model is trained on the MNIST and Fashion-MNIST datasets to classify images.
 
-This assignment requires you to implement a neural network from scratch using only NumPy. You will build all components including layers, activations, optimizers, and loss functions, then train your network on MNIST or Fashion-MNIST datasets.
 
-## Learning Objectives
+## What Is Built
+- A fully connected neural network with a configurable number of layers and neurons
+- Forward and backward pass implemented manually using NumPy
+- 6 optimisers: SGD, Momentum, NAG, RMSProp, Adam, Nadam
+- 3 activation functions: Sigmoid, Tanh, ReLU
+- 2 loss functions: Cross Entropy and MSE
+- 3 weight initialisation methods: Random, Xavier, Zeros
+- Training and inference scripts with command line arguments
+- W&B integration for experiment tracking
 
-- Understand forward and backward propagation
-- Implement gradient computation manually
-- Implement various optimizers (SGD, Momentum, Adam, Nadam)
-- Work with activation functions and their derivatives
-- Train and evaluate neural networks
-- Log experiments using Weights & Biases
-
-## Contact
-
-For questions or issues, please contact the teaching staff or post on the course forum.
-
----
-
-Good luck with your implementation!
+WnB report link - https://wandb.ai/me21b002-/da6401_assignment1/reports/DA6401-Assignment--VmlldzoxNjEzNjA3OQ?accessToken=atd922naymmeh2b53zraxx5vdvs9gseyen577mvzbqhxqqd79kl71xoholwzxjs1
