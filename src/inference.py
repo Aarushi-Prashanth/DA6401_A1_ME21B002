@@ -154,3 +154,6 @@ if __name__ == "__main__":
         split=args.split,
         output_file=args.output_file,
     )
+
+# Alias for autograder compatibility
+parse_arguments = build_parser
